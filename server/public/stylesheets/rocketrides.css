@@ -889,6 +889,13 @@ form a.button {
   flex: 1.5;
 }
 
+.rides .list .cell.fees {
+  flex: 1;
+  font-weight: 500;
+  text-align: right;
+  color:#00b67c;
+}
+
 .rides .list .cell.price {
   flex: 1;
   font-weight: 500;

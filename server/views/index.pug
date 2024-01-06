@@ -3,8 +3,8 @@ extends layout
 block header
   .intro
     .pilots
-      h1 Get ready for take off
-      h2 Rocket Rides is the world’s leading air travel platform: join our team of pilots to help people travel faster.
+      h1 Get ready to meet
+      h2 People Drop is the world's leading social discovery platform: join our community to connect with people nearby.
       if pilot && pilot.stripeAccountId && pilot.onboardingComplete
         a.button.primary(href='/pilots/dashboard') View dashboard
       else
@@ -22,8 +22,8 @@ block content
       h3 Augmented reality app
       p Ready, set, download. Get weather updates, directions, and 24/7 support. Don’t have a smartphone? No problem.
 
-block footer
-  .annotation.landing
-    a.stripe(href='https://stripe.com') Stripe
-    p Rocket Rides is a demo for #[a(href='https://stripe.com/connect') Stripe Connect] and #[a(href='https://stripe.com/connect/express') Express]. It is not a real product.
-    a.github.arrow(href='https://github.com/stripe/stripe-connect-rocketrides') View on GitHub
+//- block footer
+//-   .annotation.landing
+//-     a.stripe(href='https://stripe.com') Stripe
+//-     p Rocket Rides is a demo for #[a(href='https://stripe.com/connect') Stripe Connect] and #[a(href='https://stripe.com/connect/express') Express]. It is not a real product.
+//-     a.github.arrow(href='https://github.com/stripe/stripe-connect-rocketrides') View on GitHub
